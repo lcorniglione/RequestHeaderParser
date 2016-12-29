@@ -18,7 +18,6 @@ function parseLanguage(language){
 }
 
 function parseOs(os){
-    var reg = /\(.+\s*\d+\s*\)/g;
     var oss = os.split(/[\(\)]/)[1];
     return oss;
 }
